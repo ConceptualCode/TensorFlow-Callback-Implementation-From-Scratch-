@@ -1,1 +1,40 @@
+# Custom Callback in TensorFlow MNIST Training
 
+This repository contains a TensorFlow project that demonstrates the implementation of a custom callback during the training of the MNIST dataset. The custom callback is designed to monitor the accuracy during training and stop the training process once a certain accuracy threshold is reached.
+
+## Requirements
+
+To run this project, you need the following dependencies:
+
+- Python (version 3.6 or above)
+- TensorFlow (version 2.0 or above)
+
+## Getting Started
+
+Follow the instructions below to set up and run the project:
+
+1. Clone this repository to your local machine or download the source code as a ZIP file.
+2. Ensure that you have the required dependencies installed on your system.
+3. Open a terminal or command prompt and navigate to the project directory.
+
+## Usage
+
+The `train_mnist function` is the code for training the MNIST dataset using a custom callback. The `myCustomCallback` class defines the custom callback that stops the training process when the accuracy reaches 99%. The `train_mnist` function loads the MNIST dataset, defines a simple sequential model, compiles it, and starts the training process with the custom callback.
+
+The script will start training the model on the MNIST dataset. The training progress will be displayed in the console, and if the accuracy reaches 99%, the training process will be interrupted.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
+
+## Acknowledgments
+
+This project was created as a learning exercise and is based on the TensorFlow MNIST tutorial. Thanks to the TensorFlow team for providing valuable resources and documentation.
+
+If you have any questions or need further assistance, please feel free to contact me.
+
+Happy coding!
